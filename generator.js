@@ -53,7 +53,7 @@ var server = "var express = require('express');" + '\n' +
 
 '//mongoose is our database interperater. It allows node to talk to the Mongodb databse.' + '\n' +
 
-'mongoose.connect("mongodb://localhost");' + '\n' +
+'mongoose.connect(\\\"mongodb://localhost\\\");' + '\n' +
 
 '//this mongoose.connect line tells the server where it will find the mongo database. in this case it is served locally' + '\n' +
 
